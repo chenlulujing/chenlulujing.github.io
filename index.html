@@ -665,6 +665,158 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2013/07/14/android/so/关于Android的.so文件你所需要知道的/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lulu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="San">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2013/07/14/android/so/关于Android的.so文件你所需要知道的/" itemprop="url">
+                  关于Android的.so文件你所需要知道的
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-07-14T17:01:34+08:00">
+                2013-07-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>ARMv5，ARMv7 (从2010年起)，x86 (从2011年起)，MIPS (从2012年起)，ARMv8，MIPS64和x86_64 (从2014年起)，每一种都关联着一个相应的ABI<br>所有的x86/x86_64/armeabi-v7a/arm64-v8a设备都支持armeabi架构的.so文</p>
+<p>##so加载方式</p>
+<blockquote>
+<p>将SO文件直接放到libs下，然后代码中System.loadLibrary(“xxx”)；再public native static int  xxx_xxx_xxx()；接下来就可以直接调用xxx_xxx_xxx()方法 </p>
+</blockquote>
+<p>一种CPU架构　=　一种对应的ABI参数　=　 一种对应类型的SO库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">     cpu构架    |    so库所放的文件夹命名</div><div class="line">ARMv5     |   armeabi</div><div class="line"> ARMv7     | armeabi-v7a</div><div class="line"> x86     |   x86  </div><div class="line"> MIPS     |   mips  </div><div class="line"> ARMv8     |   arm64-v8a  </div><div class="line"> MIPS64     |   mips64  </div><div class="line"> x86_64     |   x86_64</div></pre></td></tr></table></figure>
+<p><img src="./_image/2017-01-23-10-37-10.jpg" alt=""></p>
+<p><img src="./_image/2017-05-07-20-21-55.jpg" alt=""></p>
+<p>##参考<br><a href="http://alphayang.github.io/2015/11/27/so-files-guide/" target="_blank" rel="external">Android开发，不可不知的so文件知识大全</a><br><a href="http://www.jianshu.com/p/cb05698a1968" target="_blank" rel="external">关于Android的.so文件你所需要知道的</a><br><a href="https://segmentfault.com/a/1190000005646078" target="_blank" rel="external">ANDROID动态加载 使用SO库时要注意的一些问题</a><br><a href="http://allenfeng.com/2016/11/06/what-you-should-know-about-android-abi-and-so/" target="_blank" rel="external">谈谈Android的so</a><br><a href="http://blog.coderclock.com/2017/05/07/android/Android-so-files-compatibility-and-adaptation/" target="_blank" rel="external">Android SO文件的兼容和适配</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2013/07/14/android/apk/汽车之家apk分析报告/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -828,7 +980,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2013/07/14/android/so/关于Android的.so文件你所需要知道的/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2012/01/05/mac/使用技巧/终端/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="lulu">
@@ -850,8 +1002,8 @@
             
               
                 
-                <a class="post-title-link" href="/2013/07/14/android/so/关于Android的.so文件你所需要知道的/" itemprop="url">
-                  关于Android的.so文件你所需要知道的
+                <a class="post-title-link" href="/2012/01/05/mac/使用技巧/终端/" itemprop="url">
+                  终端
                 </a>
               
             
@@ -867,8 +1019,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-07-14T17:01:34+08:00">
-                2013-07-14
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2012-01-05T00:00:00+08:00">
+                2012-01-05
               </time>
             
 
@@ -890,8 +1042,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/android/" itemprop="url" rel="index">
-                    <span itemprop="name">android</span>
+                  <a href="/categories/mac/" itemprop="url" rel="index">
+                    <span itemprop="name">mac</span>
                   </a>
                 </span>
 
@@ -927,16 +1079,7 @@
       
         
           
-            <p>ARMv5，ARMv7 (从2010年起)，x86 (从2011年起)，MIPS (从2012年起)，ARMv8，MIPS64和x86_64 (从2014年起)，每一种都关联着一个相应的ABI<br>所有的x86/x86_64/armeabi-v7a/arm64-v8a设备都支持armeabi架构的.so文</p>
-<p>##so加载方式</p>
-<blockquote>
-<p>将SO文件直接放到libs下，然后代码中System.loadLibrary(“xxx”)；再public native static int  xxx_xxx_xxx()；接下来就可以直接调用xxx_xxx_xxx()方法 </p>
-</blockquote>
-<p>一种CPU架构　=　一种对应的ABI参数　=　 一种对应类型的SO库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">     cpu构架    |    so库所放的文件夹命名</div><div class="line">ARMv5     |   armeabi</div><div class="line"> ARMv7     | armeabi-v7a</div><div class="line"> x86     |   x86  </div><div class="line"> MIPS     |   mips  </div><div class="line"> ARMv8     |   arm64-v8a  </div><div class="line"> MIPS64     |   mips64  </div><div class="line"> x86_64     |   x86_64</div></pre></td></tr></table></figure>
-<p><img src="./_image/2017-01-23-10-37-10.jpg" alt=""></p>
-<p><img src="./_image/2017-05-07-20-21-55.jpg" alt=""></p>
-<p>##参考<br><a href="http://alphayang.github.io/2015/11/27/so-files-guide/" target="_blank" rel="external">Android开发，不可不知的so文件知识大全</a><br><a href="http://www.jianshu.com/p/cb05698a1968" target="_blank" rel="external">关于Android的.so文件你所需要知道的</a><br><a href="https://segmentfault.com/a/1190000005646078" target="_blank" rel="external">ANDROID动态加载 使用SO库时要注意的一些问题</a><br><a href="http://allenfeng.com/2016/11/06/what-you-should-know-about-android-abi-and-so/" target="_blank" rel="external">谈谈Android的so</a><br><a href="http://blog.coderclock.com/2017/05/07/android/Android-so-files-compatibility-and-adaptation/" target="_blank" rel="external">Android SO文件的兼容和适配</a></p>
+            <p><a href="http://wdxtub.com/2016/02/18/oh-my-zsh/" target="_blank" rel="external">zsh 全程指南</a><br><a href="http://docs.qzy.camp/docs/iterm-color" target="_blank" rel="external">如何替换 iTerm 布景</a></p>
 
           
         
@@ -1016,7 +1159,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -1027,7 +1170,7 @@
             
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">categories</span>
               
             </div>
@@ -1038,7 +1181,7 @@
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">tags</span>
               
             </div>
